@@ -1,16 +1,16 @@
-# 💊 MedXpert - AI-Powered Drug Discovery & Comparison  
+# MedXpert - AI-Powered Drug Discovery & Comparison  
 
 MedXpert is an **AI-driven chatbot** designed to assist researchers, pharmacists, and healthcare professionals in **drug discovery, QSAR modeling, and drug comparison**. It leverages **OpenAI’s GPT-4 API** to provide **real-time insights** into drug interactions, mechanisms, and pharmacology. Additionally, the **Drug Comparison module** allows users to analyze two drugs based on their molecular properties and predict efficacy.  
 
 ---
 
-## 🚀 **Features**
-✅ **MedXpert Chatbot** - AI-powered chatbot for answering pharma-related queries.  
-✅ **Drug Comparison API** - Compares two drugs using QSAR-based analysis.  
-✅ **Interactive Web UI** - Chatbot with an intuitive user interface.  
-✅ **FastAPI Backend** - High-performance API for drug-related queries.  
-✅ **SMILES-Based Analysis** - Converts molecular structures into numerical data.  
-✅ **Locally Testable** - Supports **local API requests & command-line interaction**.  
+## **Features**
+**MedXpert Chatbot** - AI-powered chatbot for answering pharma-related queries.  
+**Drug Comparison API** - Compares two drugs using QSAR-based analysis.  
+**Interactive Web UI** - Chatbot with an intuitive user interface.  
+**FastAPI Backend** - High-performance API for drug-related queries.  
+**SMILES-Based Analysis** - Converts molecular structures into numerical data.  
+**Locally Testable** - Supports **local API requests & command-line interaction**.  
 
 ---
 
@@ -105,7 +105,7 @@ curl -X 'POST' \
 }'
 ```
 
-✅ The system will predict which drug has higher efficacy!
+The system will predict which drug has higher efficacy!
 
 ## Command-Line Interface (CLI) Chatbot
 ```
