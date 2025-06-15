@@ -14,15 +14,43 @@ MedXpert is an **AI-driven chatbot** designed to assist researchers, pharmacists
 
 ---
 
-## 📂 **Project Structure**
-drug_discovery_ai/ │── app/ │ ├── api.py # FastAPI API logic │ ├── chat_ui.py # Web-based chatbot UI │ 
-├── chatbot.py # Chatbot backend logic │ ├── cli_chatbot.py # CLI chatbot for terminal use │── data/ │ 
-├── cleaned_data.csv # Preprocessed dataset │ ├── feature_engineered_data.csv # Features for drug comparison │── models/ │ 
-├── qsar_model.pkl # Pretrained QSAR model │── src/ │ ├── inference/ │ │ ├── compare_drugs.py # Drug comparison logic │ │
-├── predict_activity.py # QSAR model predictions │ ├── preprocessing/ │ │ ├── smiles_to_features.py # Converts SMILES notation to features │
-├── training/ │ │ ├── train_qsar.py # Model training script │── utils/ │ ├── config.py # Centralized configuration file │
-├── file_manager.py # Utility functions for file handling │── .env # API keys & environment variables
-│── requirements.txt # Python dependencies │── README.md # Project documentation
+## 📂 Project Structure
+
+```
+drug_discovery_ai/
+│
+├── app/
+│   ├── api.py                  # FastAPI API logic
+│   ├── chat_ui.py              # Web-based chatbot UI
+│   ├── chatbot.py              # Chatbot backend logic
+│   ├── cli_chatbot.py          # CLI chatbot for terminal use
+│
+├── data/
+│   ├── cleaned_data.csv        # Preprocessed dataset
+│   ├── feature_engineered_data.csv # Features for drug comparison
+│
+├── models/
+│   ├── qsar_model.pkl          # Pretrained QSAR model
+│
+├── src/
+│   ├── inference/
+│   │   ├── compare_drugs.py    # Drug comparison logic
+│   │   ├── predict_activity.py # QSAR model predictions
+│   │
+│   ├── preprocessing/
+│   │   ├── smiles_to_features.py   # Converts SMILES notation to features
+│   │
+│   ├── training/
+│       ├── train_qsar.py       # Model training script
+│
+├── utils/
+│   ├── config.py               # Centralized configuration file
+│   ├── file_manager.py         # Utility functions for file handling
+│
+├── .env                        # API keys & environment variables
+├── requirements.txt            # Python dependencies
+├── README.md                   # Project documentation
+```
 
 
 ---
